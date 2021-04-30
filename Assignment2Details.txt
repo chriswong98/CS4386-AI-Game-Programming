@@ -1,0 +1,82 @@
+3x3 Sliding Puzzle
+
+ 
+
+Game demo:  click here to try out the 3x3 sliding puzzle and see how it works download
+
+ 
+
+Gameboard: the gameboard of a 3x3 sliding puzzle contains 3x3 cells. Here we will label the cell locations as A-I from top to bottom, left to right, i.e.,
+
+A	B	C
+D	E	F
+G	H	I
+There are 8 tiles which are placed on different cells. This also means that one of the 9 cells does not contain any tile, and thus empty. Here we will label the tiles as 1-8, and we also label the empty cell as 0. 
+
+ 
+
+Gameplay: When the sliding puzzle game starts, the numbered tiles appear on the cells in a random order. The following is an example starting puzzle:
+
+3	1	5
+0	2	7
+6	8	4
+You can make a move by sliding a tile to the empty cell, if the cell containing that tile is next to the empty cell (above/below/left/right). In the above example, you can thus slide cell A/E/G to cell D. For example, if you make a move of by sliding the tile in cell A given the above puzzle, then the puzzle will be updated as follows (the tile in cell A is slided to cell D and cell A becomes empty):
+
+0	1	5
+3	2	7
+6	8	4
+You should keep making moves until the puzzle is solved.
+
+ 
+
+Winning Condition: The puzzle is solved if it reaches the following pattern:
+
+0	1	2
+3	4	5
+6	7	8
+ 
+
+To Do: Write a program that
+
+reads some input data indicating the initial puzzle status
+contains an AI algorithm that determines the move sequence that tries to solve the puzzle with as few moves as possible
+output the resulting move sequence within the time limit
+ 
+
+Input: The input should be read from the standard input stream that contains a sequence of 9 digits without space in a random order where each digit 0,1,2,3,4,5,6,7,8 appears only once. The following shows an example input:
+
+315027684
+
+Caution: If you just randomly generate a digit sequence as the input, sometimes there is no solution, i.e., that particular puzzle is not solvable. For example, the puzzle with input 315027648 is NOT solvable. You are advised to use the above given demo  downloadto generate the input for testing, in which case the puzzle is guaranteed to be solvable. 
+
+ 
+
+Output: The output should contain the move sequence to solve the given puzzle in the form of characters without space where each character is A-I indicating the cell locations from which the tiles should be slided to the empty cell. For example, the following output would define a move sequence that solves the puzzle given the above input:
+
+ABEFIHEFCBA
+
+The output should be produced as the standard output stream.
+
+ 
+
+Time Limit: Your program should generate the output within 5 minutes on any machine that runs your program.
+
+ 
+
+Programming Language: You can write your program in either Python or C++.
+
+Specifications for writing code in Python
+
+If you would like to write the code in Python, then your code should be included in a file named as 12345678a2.py, where 12345678 should be replaced with your own student number. Your code should be able to run in a Windows command-line:
+
+python 12345678a2.py [input]
+
+where [input] is the same format as described above, e.g., running the following line
+
+python 12345678a2.py 315027684
+
+should give the input to your program about the initial puzzle status.
+
+Your program should then determine the move sequence to solve the puzzle and produce the output as described above, which should be printed to the standard output stream. For example, if your program determines ABEFIHEFCBA as the move sequence to solve the puzzle, then the following output should be printed by your program:
+
+ABEFIHEFCBA
