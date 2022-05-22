@@ -1,6 +1,6 @@
 # CS4386-AI-Game-Programming
 
-Minimax algorithm is used to solve assignment1.
+<b><h3> Minimax algorithm is used to solve assignment1.</h3> <b>
 
 <b> Assignment 1 detail: </b>
 
