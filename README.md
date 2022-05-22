@@ -76,9 +76,11 @@ Result:
 
  We can see that the optimal minmum move is calculated. Only 3 moves can slide the puzzle into perfect order.
  
- ![image](https://user-images.githubusercontent.com/42562789/169711683-95fb489e-3c02-45cc-bfc1-2375a4c48e65.png)
+Example 2:
+ 
+![image](https://user-images.githubusercontent.com/42562789/169712424-88f5cb2d-709e-44a1-a218-878e13692904.png)
 
- Enter the move sequence to solve the puzzle in the above winning order:
+Enter the move sequence to solve the puzzle in the above winning order:
  
 By using the implemented A* program, the sequence is calculated:
 HEBADGHEDABEFIHGDA
