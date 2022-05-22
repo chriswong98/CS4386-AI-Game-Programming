@@ -69,7 +69,7 @@ You can see that by using the program, every players choose the optimal move.
 
  <h3> A* algorithm is used to solve assignment2. </h3>
 
-Assignment 2 detail:
+<h4> Assignment 2 detail: </h4>
 3x3 Sliding Puzzle
 
  
