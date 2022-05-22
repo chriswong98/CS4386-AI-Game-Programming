@@ -84,6 +84,6 @@ By using the implemented A* program, the sequence is calculated:
 HEBADGHEDABEFIHGDA
  
 Result:
-![](https://github.co/chriswong98/CS4386-AI-Game-Programming/動畫.gif)
+![]([https://github.co/chriswong98/CS4386-AI-Game-Programming/動畫.gif](https://github.com/chriswong98/CS4386-AI-Game-Programming/blob/main/%E5%8B%95%E7%95%AB.gif))
  
 We can see that the optimal minmum move is calculated. Only 18 moves can slide the puzzle into perfect order.
