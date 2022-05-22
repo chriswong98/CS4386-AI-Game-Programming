@@ -64,3 +64,12 @@ Example:
 
 ![image](https://user-images.githubusercontent.com/42562789/169710156-22d9cee5-4aa6-4f70-a917-d620f66447d9.png)
 
+Enter the move sequence to solve the puzzle in the above winning order:
+ 
+By using the implemented A* program, the sequence is calculated:
+BA
+ 
+Result:
+![image](https://user-images.githubusercontent.com/42562789/169710928-f1d40508-0b64-4350-9a1d-f51544ca2597.png)
+
+ 
