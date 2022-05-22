@@ -60,7 +60,7 @@ Winning Condition: The puzzle is solved if it reaches the following pattern:
 3	4	5
 6	7	8
 
-Example:
+Example 1:
 
 ![image](https://user-images.githubusercontent.com/42562789/169710156-22d9cee5-4aa6-4f70-a917-d620f66447d9.png)
 
@@ -72,4 +72,19 @@ BA
 Result:
 ![image](https://user-images.githubusercontent.com/42562789/169710928-f1d40508-0b64-4350-9a1d-f51544ca2597.png)
 
+ We can see that the optimal minmum move is calculated. Only 2 moves can slide the puzzle into perfect order.
  
+ Example 2:
+ 
+ ![image](https://user-images.githubusercontent.com/42562789/169711551-f0e3fdb5-4c50-4d1a-9e31-772482255008.png)
+
+Enter the move sequence to solve the puzzle in the above winning order:
+ 
+By using the implemented A* program, the sequence is calculated:
+EBA
+ 
+Result:
+ 
+ ![image](https://user-images.githubusercontent.com/42562789/169711583-a90b32e4-c6d0-45d7-bd35-cc93ef9a1ee4.png)
+
+ We can see that the optimal minmum move is calculated. Only 3 moves can slide the puzzle into perfect order.
