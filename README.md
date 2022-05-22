@@ -2,7 +2,7 @@
 
 <b><h3> Minimax algorithm is used to solve assignment1.</h3> <b>
 
-<b> Assignment 1 detail: </b>
+ <b> <h4> Assignment 1 detail: </h4> </b>
 
 Game: 3-14
 
